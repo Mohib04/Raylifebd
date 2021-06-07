@@ -9,6 +9,18 @@ Home
 Portfolio
 	SinglePortolio
 Blog
+	BlogDetails
 Shop
+	ProductDetails
 Pages
+	About
+	CustomerRevies
+	Shop
+	ShopSideber
+	ProductDetails
+	Cart
+	Wishlist
+	Checkout
+	Team
+	LoginRegister
 Contact
