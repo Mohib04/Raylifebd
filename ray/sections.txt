@@ -1,0 +1,14 @@
+BrowserCategories
+JewelryWatches
+BagesShoes
+KidsMother
+LatestNews
+
+Directorys
+Home
+Portfolio
+	SinglePortolio
+Blog
+Shop
+Pages
+Contact
