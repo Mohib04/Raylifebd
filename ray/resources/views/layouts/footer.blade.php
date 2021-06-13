@@ -18,7 +18,7 @@
                                         <i class="zmdi zmdi-pin"></i>
                                     </div>
                                     <div class="address-text">
-                                        <p>194 Main Rd T, FS Rayed <br> VIC 3057, USA</p>
+                                        <p>14 Probal Housing, Ring Road, Mohammadpur, Dhaka 1207, Bangladesh.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -26,7 +26,7 @@
                                         <i class="zmdi zmdi-email"></i>
                                     </div>
                                     <div class="address-text">
-                                        <a href="#"> info@example.com</a>
+                                        <a href="#"> info@raylifebd.com</a>
                                     </div>
                                 </li>
                                 <li>
@@ -34,7 +34,7 @@
                                         <i class="zmdi zmdi-phone-in-talk"></i>
                                     </div>
                                     <div class="address-text">
-                                        <p>+012 345 678 102 </p>
+                                        <p><strong>Phone: </strong> +88 096 77 777 888 </p>
                                     </div>
                                 </li>
                             </ul>
@@ -110,8 +110,8 @@
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="copyright__inner">
                         <div class="copyright">
-                            <p>© 2017 <a href="https://freethemescloud.com/">Free themes Cloud</a>
-                                All Right Reserved.</p>
+                            <p>© 2021 Proudly powered by <a href="https://raylife.com/">RAYLife</a>
+                                Copyright: <a href="https://raylife.com/">RAYLife</a></p>
                         </div>
                         <ul class="footer__menu">
                             <li><a href="index.html">Home</a></li>

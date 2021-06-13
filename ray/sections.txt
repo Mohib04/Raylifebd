@@ -16,7 +16,6 @@ Pages
 	About
 	CustomerRevies
 	Shop
-	ShopSideber
 	ProductDetails
 	Cart
 	Wishlist

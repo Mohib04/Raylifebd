@@ -40,3 +40,38 @@ Route::get('Shop', function () {
 Route::get('ProductDetails', function () {
     return view('ProductDetails');
 })->name('ProductDetails');
+
+Route::get('About', function () {
+    return view('About');
+})->name('About');
+
+Route::get('CustomerRevies', function () {
+    return view('CustomerRevies');
+})->name('CustomerRevies');
+
+Route::get('Cart', function () {
+    return view('Cart');
+})->name('Cart');
+
+Route::get('Wishlist', function () {
+    return view('Wishlist');
+})->name('Wishlist');
+
+Route::get('Checkout', function () {
+    return view('Checkout');
+})->name('Checkout');
+
+Route::get('Team', function () {
+    return view('Team');
+})->name('Team');
+
+Route::get('LoginRegister', function () {
+    return view('LoginRegister');
+})->name('LoginRegister');
+
+Route::get('Contact', function () {
+    return view('Contact');
+})->name('Contact');
+
+Route::post('Contact', 'App\Http\Controllers\Contact\Contact@store')->name('contact-info');
+Route::post('LoginRegister', 'App\Http\Controllers\Login\Login@store')->name('LoginRegister-Register');
