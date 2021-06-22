@@ -39,7 +39,7 @@
                 <div class="off__contact">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="{{ asset('assets/')}}images/logo/logo.png" alt="logo">
+                            <img src="{{ asset('assets/images/logo/logo.png')}}" alt="logo">
                         </a>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetu adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>

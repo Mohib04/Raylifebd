@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Login;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Http\Requests\LoginRegister;
-use App\Models\LoginModel;
+use App\Http\Requests\loginRequest;
+use function GuzzleHttp\Promise\all;
+use App\Models\UserLogin;
 
-class Login extends Controller
+class loginController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -35,13 +35,9 @@ class Login extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(LoginRegister $request)
+    public function store(loginRequest $request)
     {
-        $request->validate([
-
-        ]);
-        //dd($request->all([]));
-        LoginModel::create([
+        UserLogin::create([
             'email'=> $request ->email,
             'password'=> $request ->password,
         ]);
@@ -56,9 +52,7 @@ class Login extends Controller
      */
     public function show($id)
     {
-        foreach (login::all() as $flight) {
-            echo $flight->name;
-        }
+        //
     }
 
     /**

@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactValidation;
+use App\Models\ContactModel;
+use Illuminate\Support\Facades\DB;
 
 class Contact extends Controller
 {
@@ -15,7 +17,11 @@ class Contact extends Controller
      */
     public function index()
     {
-        //
+        $users = DB::table('users')->get();
+
+        foreach ($users as $user) {
+            echo $user->name;
+        }
     }
 
     /**
@@ -43,7 +49,14 @@ class Contact extends Controller
 
         ]);
         */
-        dd($request->all([]));
+        //dd($request->all([]));
+
+        ContactModel::create([
+                'email'=> $request ->email,
+                'password'=> $request ->password,
+        ]);
+
+        return 'Sunccess';
     }
 
     /**

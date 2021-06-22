@@ -73,5 +73,11 @@ Route::get('Contact', function () {
     return view('Contact');
 })->name('Contact');
 
+Route::get('UserAccount', function () {
+    return view('UserAccount');
+})->name('UserAccount');
+
 Route::post('Contact', 'App\Http\Controllers\Contact\Contact@store')->name('contact-info');
+Route::get('database', 'App\Http\Controllers\Contact\Contact@index')->name('database');
 Route::post('LoginRegister', 'App\Http\Controllers\Login\Login@store')->name('LoginRegister-Register');
+Route::post('UserAccount', 'App\Http\Controllers\UserAccount\UserAccount@store')->name('UserAccount');
