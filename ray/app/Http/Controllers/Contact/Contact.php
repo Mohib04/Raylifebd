@@ -56,7 +56,7 @@ class Contact extends Controller
                 'password'=> $request ->password,
         ]);
 
-        return 'Sunccess';
+        return 'Your registration has been recorded!! thank for signup.';
     }
 
     /**
